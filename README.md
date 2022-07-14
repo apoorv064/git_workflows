@@ -10,7 +10,7 @@
 
 
 # 1. Created workflow PR_test.yml
-
+```
 name: PR_Test
 on:
 
@@ -24,7 +24,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - run: echo "Insert tests here"
-      
+```      
  On pushing from test_branch to main, pull req is created 
  
  Workflow triggered, checks passed
