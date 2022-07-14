@@ -9,21 +9,14 @@
 7. Understand reusable workflows and setup workflow call which can reuse workflows from another repo
 
 
-1.
-
-Created workflow PR_test.yml
+# 1. Created workflow PR_test.yml
 
 name: PR_Test
-
-# Controls when the workflow will run
 on:
-  # Triggers the workflow on push or pull request events but only for the "main" branch
 
   pull_request:
     branches: [ "main" ]
 
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   build:
     runs-on: ubuntu-latest
