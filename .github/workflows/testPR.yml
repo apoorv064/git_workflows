@@ -15,6 +15,6 @@ jobs:
   print_test:
     runs-on: ubuntu_latest
     steps: 
-      run: echo "Insert tests here"
+      - run: echo "Insert tests here"
     
 
